@@ -13,10 +13,3 @@ normalmente existe uma vasta quantidade de conteúdos do instrumento por ai ent�
 - TailwindCSS
 - React-router-dom
 ```
-       -- Pendencias --
-
-* Construção da api porem estou com dificuldades para entender upload de imagens e principalmente com dificuldades em banco relacional
-
-* Terminar de fazer a página de edição de pratos do admin
-
-     👩‍💻👩‍💻👩‍💻 Front-end práticamente pronto.
