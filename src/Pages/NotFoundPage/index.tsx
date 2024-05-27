@@ -1,7 +1,9 @@
 function Pagina_404 () {
   return (
    <>
-    <h1>Página não encontrada</h1>
+    <div className="mx-auto w-[90%] py-5">
+     <h1 className="text-[red] text-xl">Página não encontrada</h1>
+    </div>
    </>
   )
 }
