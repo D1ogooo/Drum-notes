@@ -6,22 +6,8 @@ function NewNote() {
   function handleFileInputChange(event) {
     const file = event.target.files[0];
     if (file) {
-      const reader = new FileReader();
-      reader.onload = () => {
-        const newImage = {
-          preview: reader.result,
-          size: `${file.size / 1024} KB`,
-        };
-        setImages([...images, newImage]);
-      };
-      reader.readAsDataURL(file);
+      
     }
-  }
-
-  function removeImage(index) {
-    const newImages = [...images];
-    newImages.splice(index, 1);
-    setImages(newImages);
   }
 
   function handleSubmit() {
@@ -39,7 +25,7 @@ function NewNote() {
           <div className="icons flex text-gray-500 m-2">
             <label htmlFor="fileInput">
               <svg className="mr-2 cursor-pointer hover:text-gray-700 border rounded-full p-1 h-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
+               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.172 7l-6.586 6.586a2 2 0 102.828 2.828l6.414-6.586a4 4 0 00-5.656-5.656l-6.415 6.585a6 6 0 108.486 8.486L20.5 13" />
               </svg>
               <input id="fileInput" type="file" onChange={handleFileInputChange} style={{ display: 'none' }} />
             </label>
