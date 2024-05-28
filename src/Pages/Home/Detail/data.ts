@@ -23,18 +23,4 @@ export const data: CardaData[] = [
   image: `${imagemTeste}`,
   video: 'https://www.youtube.com/watch?v=ElIqwEKxV2M&list=RDElIqwEKxV2M&start_radio=1',
  },
- {
-  id: 2,
-  title: 'Tua graca me basta',
-  conteudo: 'quuntur obcaecati, rleniti voluptate, totam maaame! Dolorem magni sit ducimus!',
-  image: `${imagemTeste}`,
-  video: 'https://www.youtube.com/watch?v=ElIqwEKxV2M&list=RDElIqwEKxV2M&start_radio=1',
- },
- {
-  id: 3,
-  title: 'Tua graca me basta',
-  conteudo: 'quuntur obcaecati, rleniti voluptate, totam maaame! Dolorem magni sit ducimus!',
-  image: `${imagemTeste}`,
-  video: 'https://www.youtube.com/watch?v=ElIqwEKxV2M&list=RDElIqwEKxV2M&start_radio=1',
- },
 ]

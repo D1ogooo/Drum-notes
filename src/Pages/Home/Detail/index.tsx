@@ -6,7 +6,7 @@ export const Detail = () => {
   const project = data.find((project) => project.id === Number(id))
   
   if (!project) {
-   return <p>Projeto não encontrado</p>
+   return <p className='text-center mt-[20rem] text-xl bg-gray-800 w-[20rem] mx-auto text-white p-5'>Projeto não encontrado</p>
   }
 
   return (
